@@ -1,0 +1,47 @@
+{
+  "name": "swan-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@radix-ui/colors": "^1.0.1",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@stitches/react": "^1.2.8",
+    "@types/node": "20.3.3",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "emoji-picker-react": "^4.5.1",
+    "moment": "^2.29.4",
+    "next": "13.4.7",
+    "radix-ui": "^1.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-loading-skeleton": "^3.3.1",
+    "react-redux": "^8.1.1",
+    "sass": "^1.63.6",
+    "socket.io-client": "^4.7.2",
+    "storybook": "^7.0.25",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.25",
+    "@storybook/addon-interactions": "^7.0.25",
+    "@storybook/addon-links": "^7.0.25",
+    "@storybook/blocks": "^7.0.25",
+    "@storybook/nextjs": "^7.0.25",
+    "@storybook/react": "^7.0.25",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "eslint-plugin-storybook": "^0.6.12"
+  }
+}
